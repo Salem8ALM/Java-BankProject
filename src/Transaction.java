@@ -1,7 +1,7 @@
 import java.util.Calendar;
 import java.util.Date;
 
-public class Transaction extends BankAccount {
+public class Transaction  {
     private String date;
     private String type;
     private float amount;

@@ -1,3 +1,4 @@
+
 public class User extends BankAccount{
     private String username;
     private String password;
@@ -5,15 +6,9 @@ public class User extends BankAccount{
 
     }
 
+    public void createAccount(){
+        setAccountNum("4075000048686");
 
-    @Override
-    public String getAccountNum() {
-        return super.getAccountNum();
-    }
-
-    @Override
-    public void setAccountNum(String accountNum) {
-        super.setAccountNum(accountNum);
     }
 
     public String getUsername() {
@@ -21,6 +16,7 @@ public class User extends BankAccount{
     }
 
     public void setUsername(String username) {
+
         this.username = username;
     }
 
